@@ -244,7 +244,7 @@ $nextPage = $currentPage < $totalPages ? $currentPage + 1 : null;
 </div>
 
     <?php if ($firstNewsOnPage): ?>
-        <div class="background-news-block" style="background-image: url('<?= htmlspecialchars($firstNewsOnPage['image']) ?>');">
+        <div class="background-news-block" style="background-image: url('images/<?= htmlspecialchars($firstNewsOnPage['image']) ?>');">
             <div class="background-news-overlay"></div>
             <div class="background-news-content">
                 <h2><b><?= htmlspecialchars($firstNewsOnPage['title']) ?></b></h2>

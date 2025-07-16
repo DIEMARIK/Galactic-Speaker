@@ -193,7 +193,7 @@ function format_content($html) {
     </div>
 
     <div class="news-image">
-        <img src="<?= htmlspecialchars($news['image']) ?>" alt="Фото новости">
+        <img src="images/<?= htmlspecialchars($news['image']) ?>" alt="Фото новости">
     </div>
 </div>
 
